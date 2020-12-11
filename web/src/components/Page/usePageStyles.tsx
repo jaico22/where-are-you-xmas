@@ -6,7 +6,8 @@ const useStyles = makeStyles(theme => ({
     page: {
         width: "100vw",
         height: "100vh",
-        backgroundColor: "#0e0629"
+        backgroundColor: "#0e0629",
+        overflow: "hidden"
     }
 }));
 
