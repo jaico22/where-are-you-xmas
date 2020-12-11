@@ -1,14 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import {Page, Player, SadFadingImages} from "./components"
 import React from 'react';
 import Snowfall from 'react-snowfall'
-// import {DepthOfFieldSnowfall} from 'react-snowflakes';
-const SnowStorm  = require('react-snowstorm');
-  // Insert anywhere in your code and that's it!
+
 const App : React.FunctionComponent = () => {
-
-
   return <Page>
     <Snowfall  />
     <Player url="https://soundcloud.com/baetrice-robert/where-are-you-christmas-piano" />
@@ -25,4 +20,5 @@ const App : React.FunctionComponent = () => {
     />
   </Page>
 }
+
 export default App;
